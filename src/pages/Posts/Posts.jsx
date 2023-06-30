@@ -172,7 +172,7 @@ const Posts = () => {
                 </button>
                 <button
                   className={`${
-                    post.isSaved == post.id ? "activeSaved" : null
+                    post.isSaved == post.id ? "activeSaved" : "isActiveSaved"
                   }`}
                 >
                   <SavedNotification savedData={post} />
